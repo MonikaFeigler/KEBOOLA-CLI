@@ -28,6 +28,32 @@
   "configurations": [
     {
       "branchId": 12105,
+      "componentId": "kds-team.ex-azure-blob",
+      "id": "10421124",
+      "path": "extractor/kds-team.ex-azure-blob/10421124-azure-blob",
+      "rows": []
+    },
+    {
+      "branchId": 12105,
+      "componentId": "keboola.ex-db-snowflake",
+      "id": "10421495",
+      "path": "extractor/keboola.ex-db-snowflake/10421495-snowflake-from-cli",
+      "rows": []
+    },
+    {
+      "branchId": 12105,
+      "componentId": "keboola.ex-db-snowflake",
+      "id": "10421731",
+      "path": "extractor/keboola.ex-db-snowflake/10421731-snowlake-from-ui",
+      "rows": [
+        {
+          "id": "93735",
+          "path": "rows/93735-account"
+        }
+      ]
+    },
+    {
+      "branchId": 12105,
       "componentId": "keboola.ex-google-drive",
       "id": "10416189",
       "path": "extractor/keboola.ex-google-drive/10416189-google-sheet-data-sample",

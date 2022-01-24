@@ -1,0 +1,23 @@
+{
+  "parameters": {
+    "db": {
+      "host": "keboola.west-europe.azure.snowflakecomputing.com",
+      "port": "443",
+      "database": "KEBOOLA_2968",
+      "scheme": "WORKSPACE_9494029",
+      "warehouse": "KEBOOLA_PROD",
+      "user": "KEBOOLA_WORKSPACE_9494029",
+      "#password": "KBC::ProjectSecureKV::eJwB2QAm/2E6Mzp7aToyO3M6MTE2OiLe9QIAWGbyprh9HQiYCKqXvWRJNoi5HsIYlCgiXLx/gJUM19S3ceH7+9rFUQ+q6IFW3/lKJM+YVU+d5tRkGQWnl+dYs6Ccls6Hy/nHb5zH3O4Uc+K/9Tdq0PRDwlYHp0mklgOgLyfxkmkJuw4Xn5SvVaHRMiI7aTozO3M6MjY6Imdlbi1lbmNyeXB0b3I2MWVlOWQ5Njg0ZDkwIjtpOjQ7czozMjoiNTdkODdlZWRkZmVmNDE3M2E3NWU3OTljODI1YTM4YzgiO33k3Vnp"
+    },
+    "tables": [
+      {
+        "name": "account",
+        "query": "SELECT * FROM account",
+        "outputTable": "in.c-snowflake.account",
+        "incremental": false,
+        "enabled": true,
+        "primaryKey": null
+      }
+    ]
+  }
+}

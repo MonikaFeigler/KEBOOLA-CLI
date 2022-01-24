@@ -1,0 +1,13 @@
+{
+  "processors": {},
+  "parameters": {
+    "columns": [],
+    "primaryKey": [],
+    "incremental": false,
+    "outputTable": "in.c-keboola-ex-db-snowflake-10421731.account",
+    "table": {
+      "schema": "WORKSPACE_9494029",
+      "tableName": "account"
+    }
+  }
+}
