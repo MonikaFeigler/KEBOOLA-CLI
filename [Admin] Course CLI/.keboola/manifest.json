@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "project": {
+    "id": 5881,
+    "apiHost": "connection.north-europe.azure.keboola.com"
+  },
+  "sortBy": "id",
+  "naming": {
+    "branch": "{branch_id}-{branch_name}",
+    "config": "{component_type}/{component_id}/{config_id}-{config_name}",
+    "configRow": "rows/{config_row_id}-{config_row_name}",
+    "schedulerConfig": "schedules/{config_id}-{config_name}",
+    "sharedCodeConfig": "_shared/{target_component_id}",
+    "sharedCodeConfigRow": "codes/{config_row_id}-{config_row_name}",
+    "variablesConfig": "variables",
+    "variablesValuesRow": "values/{config_row_id}-{config_row_name}"
+  },
+  "allowedBranches": [
+    "__main__"
+  ],
+  "ignoredComponents": [],
+  "branches": [
+    {
+      "id": 12105,
+      "path": "main"
+    }
+  ],
+  "configurations": [
+    {
+      "branchId": 12105,
+      "componentId": "keboola.ex-google-drive",
+      "id": "10416189",
+      "path": "extractor/keboola.ex-google-drive/10416189-google-sheet-data-sample",
+      "rows": []
+    },
+    {
+      "branchId": 12105,
+      "componentId": "keboola.snowflake-transformation",
+      "id": "10416822",
+      "path": "transformation/keboola.snowflake-transformation/10416822-class",
+      "rows": []
+    }
+  ]
+}

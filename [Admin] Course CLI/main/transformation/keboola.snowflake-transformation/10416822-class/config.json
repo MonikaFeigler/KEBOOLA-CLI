@@ -1,0 +1,37 @@
+{
+  "parameters": {},
+  "storage": {
+    "input": {
+      "tables": [
+        {
+          "source": "in.c-GoogleSheetSample.class-data",
+          "destination": "class_data",
+          "where_column": "",
+          "where_values": [],
+          "where_operator": "eq",
+          "columns": []
+        },
+        {
+          "source": "in.c-GoogleSheetSample.class-data",
+          "destination": "class_data2",
+          "where_column": "",
+          "where_values": [],
+          "where_operator": "eq",
+          "columns": []
+        }
+      ]
+    },
+    "output": {
+      "tables": [
+        {
+          "source": "result",
+          "destination": "out.c-Class.Result",
+          "where_column": "",
+          "where_values": [],
+          "where_operator": "eq",
+          "columns": []
+        }
+      ]
+    }
+  }
+}
