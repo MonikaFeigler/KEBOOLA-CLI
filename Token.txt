@@ -1,5 +1,0 @@
-Mater Token Course CLI
-5881-24601-fJGihKiX1UGMdrmsE1PybUXRxVoVBt9EKKd0LQua
-API host
-connection.north-europe.azure.keboola.com
-GitHub
